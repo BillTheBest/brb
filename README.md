@@ -2,7 +2,7 @@
 
 ![Big red button page](http://cl.ly/image/1b3g110I1y2X/Screen%20Shot%202014-11-13%20at%202.41.31%20PM.png)
 
-brb, a.k.a. the big red button, is a 15-minute tutorial that shows you how to use Keen IO.
+brb, a.k.a. the big red button, is a 15-minute tutorial that shows you how to use [Keen IO](https://keen.io/).
 
 In this tutorial you'll learn how to:
 
@@ -29,7 +29,7 @@ There a few things you should do before starting.
 $ git clone git@github.com:keen/brb.git
 ```
 
-+ Sign up for a Keen IO account and create a new project called *brb*. This is optional, but to follow along interactively you'll need to have a Keen IO project ID and API keys handy.
++ Sign up for a [Keen IO account](https://keen.io/signup) and create a new project called *brb*. This is optional, but to follow along interactively you'll need to have a Keen IO project ID and API keys handy.
 + One you have your project ID and API keys, paste them into the following files in the `brb` directory:
 	+ `.env`
 	+ `index.html`
