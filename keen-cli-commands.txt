@@ -1,0 +1,20 @@
+# First install the cli (requires Ruby)
+gem install keen-cli
+
+# Run queries
+# -----------
+
+# count all the button presses
+keen count -c button-presses
+
+# count the presses, grouped by color
+keen count -c button-presses -g color
+
+# Add events
+# -----------
+
+# press a blue button
+keen events:add -c button-presses -d '{ "color" : "blue" }'
+
+# delete all button presses to date
+keen collections:delete --collection button-presses
